@@ -12,7 +12,7 @@ while (i < N) {
 
     x++;
   }
-  
+
   let list = document.getElementById("list");
 
   let li = document.createElement("li");
@@ -20,7 +20,7 @@ while (i < N) {
   li.innerHTML = array;
 
   list.append(li);
-  
+
   console.log(array);
 
   i++;
